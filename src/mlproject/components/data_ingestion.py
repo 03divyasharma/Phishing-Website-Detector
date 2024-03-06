@@ -28,10 +28,20 @@ class DataIngestion:
             dframe=read_data()
             logging.info('Reading completed')
 
-            os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True) #
+            os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True) 
 
             dframe.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
 
+            logging.info("Dropping columns with constant values")
+            columns_to_drop=[]
+            for column in dframe.columns:
+                   if dframe[column].nunique() == 1:  # Checking for constant values
+                      columns_to_drop.append(column)
+            dframe = dframe.drop(columns=columns_to_drop, axis=1)
+  
+            logging.info('Columns dropped')
+
+            print(dframe)
             logging.info("Train test split initiated")
             
             train_set,test_set=train_test_split(dframe,test_size=0.2,random_state=42)
@@ -53,5 +63,5 @@ class DataIngestion:
 
 if __name__=="__main__":
     obj=DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data_path,test_data_path=obj.initiate_data_ingestion()
         

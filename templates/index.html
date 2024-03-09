@@ -1,0 +1,38 @@
+{% extends 'home.html' %}
+{% block content %}
+    <br>
+    {% if class %}
+        <h3>Result : {{class}}</h3>
+    {% endif %}
+    <form method="post" action="">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <input type="text" name="website" required placeholder="Enter Domain Name"><br><br>
+        <button type="submit" name="type" value="url">Check</button>
+    </form>
+
+    {% if features %}
+        <b>
+            Warning: Please Try to give features manually to our website. <br><br>
+            Providing features manually to our website will provide you 95.1% accuracy.<br>
+        </b><br>
+    {% elif valued_features %}
+        <h3>Extracted Features</h3>
+    {% endif %}
+
+    <form method="post" action="">
+        {% if features %}
+            {% for i in features %}
+                <label>{{i}}</label>
+                <input type="number" name={{i}} placeholder={{i}} required><br>
+            {% endfor %}
+            <button type="submit" name="type" value="features">Check</button>
+        {% endif %}
+        
+        {% if valued_features %}
+            {% for i, j in valued_features.items %}
+                <label>{{i}}</label>
+                <input type="number" name={{i}} placeholder={{i}} value={{j}} required><br>
+            {% endfor %}
+        {% endif %}
+    </form>
+{% endblock content %}

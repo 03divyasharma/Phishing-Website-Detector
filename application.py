@@ -1,4 +1,3 @@
-
 from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
@@ -51,4 +50,4 @@ def predict_datapoint():
         return render_template('home.html',results=final_results[0])
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0")

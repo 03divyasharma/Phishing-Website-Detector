@@ -7,3 +7,4 @@ pymysql
 mysql_connector_python
 python-dotenv
 dataclasses
+Flask

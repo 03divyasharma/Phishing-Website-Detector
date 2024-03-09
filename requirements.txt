@@ -1,10 +1,10 @@
 pandas
 numpy
-scikit-learn
-yellowbrick
+matplotlib
 seaborn
-pymysql
-mysql_connector_python
-python-dotenv
-dataclasses
+yellowbricks
+scikit-learn
 Flask
+pymysql
+python-dotenv
+#-e

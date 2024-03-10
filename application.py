@@ -6,7 +6,7 @@ from src.mlproject.pipelines.prediction_pipeline import CustomData,PredictPipeli
 application=Flask(__name__) #entry point of the program
 app=application
 # creating specific app url
-@app.route("/")   #parameters; two types of methods- get and post #parameters; two types of methods- get and post
+@app.route('/phishing-detector')   #parameters; two types of methods- get and post #parameters; two types of methods- get and post
 def index():
     return render_template('index.html')
 

@@ -17,7 +17,9 @@ The project consists of two parts
 
 ## Data Description
 https://data.mendeley.com/datasets/72ptz43s9v/1
+
 Database used: 
+
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Technologies Used
@@ -33,7 +35,9 @@ For end-to-end project
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ### Web App
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) : Flask webapp for user interaction and prediction
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
+
+Flask webapp for user interaction and prediction
 
 ## Created a environment in cmd terminal
 `conda create -p venv python==3.11.4 -y

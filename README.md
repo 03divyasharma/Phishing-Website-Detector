@@ -14,13 +14,17 @@ Phishing is an attempt of fraudulently accessing sensitive or confidential infor
 - Machine learning model integration for accurate phishing detection.
 - Web interface for easy interaction.
 ## Project Structure
-The project consists of two parts 
+
 
 ## Data Description
 https://data.mendeley.com/datasets/72ptz43s9v/1
 
 Database used: 
 ## Technologies Used
+### Machine Learning Libraries
+
+![](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)
+
 ### IDE: 
 For building Random Forest Classifier model
 

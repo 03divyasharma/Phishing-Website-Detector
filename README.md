@@ -27,7 +27,7 @@ Database used:
 
 ### Machine Learning Libraries
 
-![](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)       ![](https://numpy.org/doc/stable/_static/numpylogo.svg)       ![](https://pandas.pydata.org/static/img/pandas_white.svg)
+![](https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)       ![](https://numpy.org/doc/stable/_static/numpylogo.svg)   ![](https://pandas.pydata.org/static/img/pandas_white.svg)
 
 ### IDE: 
 For building Random Forest Classifier model

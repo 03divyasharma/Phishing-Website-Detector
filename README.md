@@ -1,6 +1,6 @@
 
    # Phishing Website Detection
- ### Made With ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## About
 This project is developed as part of the iNeuron.ai internship. The primary objective of this project is to detect phishing websites using machine learning algorithms.
@@ -17,13 +17,17 @@ The project consists of two parts
 
 ## Data Description
 https://data.mendeley.com/datasets/72ptz43s9v/1
-Database used: ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+Database used: 
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Technologies Used
 ### IDE: 
 For building Random Forest Classifier model
+
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
 For end-to-end project
+
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ### Deployment with :
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)

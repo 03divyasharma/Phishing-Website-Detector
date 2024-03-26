@@ -41,19 +41,27 @@ Flask webapp for user interaction and prediction
 
 ## Created a environment in cmd terminal
 `conda create -p venv python==3.11.4 -y
+
 pip install -r requirements.txt`
 
 ## Data Insertion in Database
 
 ## Initialize the Git Repositry
    ` git init
+   
     git add .
-    git commit -m "first commit"
-    git branch -M man
+    
+    git commit -m "Initial commit"
+    
+    git branch -M main
+    
     git remote add origin <github_url>
+    
     git push -u origin main`
     
 ## To modify on github repositry
   ` git add .
+  
    git commit -m "proper message"
+   
    git push -u origin main`

@@ -33,7 +33,7 @@ class CustomData:                                   #maps inputs which we are gi
                 "file_length":[self.file_length],                  "length_url":[self.length_url],
                 "time_domain_activation":[self.time_domain_activation], "qty_dot_domain":[self.qty_dot_domain],
                 "asn_ip":[self.asn_ip],                                 "ttl_hostname":[self.ttl_hostname],
-                "time_domain_expiratio":[self.time_domain_expiration],  "time_response":[self.time_response],
+                "time_domain_expiration":[self.time_domain_expiration],  "time_response":[self.time_response],
                 "qty_hyphen_url":[self.qty_hyphen_url],                 "qty_percent_params":[self.qty_percent_params],
                 "qty_vowels_domain":[self.qty_vowels_domain],           "qty_hyphen_params":[self.qty_hyphen_params],
                 "qty_dot_url":[self.qty_dot_url],                       "qty_equal_url":[self.qty_equal_url],
